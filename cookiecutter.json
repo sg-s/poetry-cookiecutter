@@ -1,0 +1,8 @@
+{
+    "repo_name": "My Poetry Package",
+    "package_name": "{{ cookiecutter.repo_name.lower().replace(' ', '_').replace('-','_') }}",
+    "description": "",
+    "_extensions": [
+        "jinja2_time.TimeExtension"
+    ]
+}

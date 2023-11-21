@@ -2,13 +2,13 @@
 
 [tool.poetry]
 name = "{{ cookiecutter.repo_name }}"
-version = "23.6.21"
+version = "{% now 'local', '%Y.%m.%d' %} "
 description = " {{ cookiecutter.description }} "
 authors = ["Srinivas Gorur-Shandilya <code@srinivas.gs>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.9.17"
+python = ">= {{ cookiecutter.python_version }}"
 beartype = ">=0.15.0"
 
 

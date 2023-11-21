@@ -5,6 +5,7 @@ import subprocess
 
 # initialize git repo
 subprocess.run(["git", "init"])
+subprocess.run(["git", "add", "-A", "."])
 subprocess.run(["git", "commit", "-m", "initial commit"])
 
 # install using poetry

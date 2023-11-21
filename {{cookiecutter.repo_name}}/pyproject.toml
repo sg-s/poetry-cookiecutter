@@ -8,7 +8,7 @@ authors = ["Srinivas Gorur-Shandilya <code@srinivas.gs>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">= {{ cookiecutter.python_version }}"
+python = ">={{ cookiecutter.python_version }},<4.0"
 beartype = ">=0.15.0"
 
 

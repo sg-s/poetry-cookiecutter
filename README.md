@@ -2,7 +2,7 @@
 
 ## Usage
 
-Assuming you have [cookiecutter]() installed, do:
+Assuming you have [cookiecutter](https://github.com/cookiecutter/cookiecutter) installed, do:
 
 ```bash
 cookiecutter https://github.com/sg-s/poetry-cookiecutter
